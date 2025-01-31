@@ -1,0 +1,33 @@
+.products-container {
+    width: 1200px;
+    margin: 20px 8rem;
+    text-align: center;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-btn, .edit-btn, .delete-btn {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-btn { background: green; color: white; }
+.edit-btn { background: blue; color: white; }
+.delete-btn { background: red; color: white; }
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
